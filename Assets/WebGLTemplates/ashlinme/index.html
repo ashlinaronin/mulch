@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ashlin.me/distancing/"/>
+    <meta property="og:title" content="Distancing, by Ashlin Aronin"/>
+    <meta property="og:description" content="Explore the environment to discover the music in this interactive EP"/>
+    <meta property="og:image" content="https://ashlin.me/distancing/TemplateData/screenshot-cropped.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>ashlin aronin | distancing</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" ></div>
+
+      <div class="below">
+        <div class="footer">
+          <div class="title">
+            <em>distancing (2020)</em>
+            <br/>
+            <a href="https://ashlin.me">ashlin aronin</a>
+          </div>
+          <button class="fullscreen" onclick="unityInstance.SetFullscreen(1)">
+        </div>
+
+        <div class="description">
+          <p>
+            Explore the environment to discover the music in this interactive EP. 9 tracks, 433 seconds.
+          </p>
+          <p>
+            Use WASD or the arrow keys to move, trackpad/mouse to look around, space to jump. Hold shift to go faster.
+          </p>
+          <p>
+            Works best on Chrome or Firefox on a laptop or desktop. 
+          </p>
+        </div>
+      </div>
+ 
+    </div>
+  </body>
+</html>
+
+
