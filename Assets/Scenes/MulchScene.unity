@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1, g: 0, b: 0.37499, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 2
+  m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.13296545, g: 0.19145328, b: 0.33962262, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.55923253, g: 0.5504588, b: 0.54954904, a: 1}
+  m_IndirectSpecularColor: {r: 1.7085327, g: 1.6803293, b: 1.6741521, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -412,12 +412,12 @@ GameObject:
   - component: {fileID: 141000352}
   - component: {fileID: 141000351}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &141000351
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -585,6 +585,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 617647e1be9fd456da5887e1b8b4d488, type: 2}
+    - target: {fileID: 2502203975881118265, guid: 9ecdb0544a530431495d88df96dd8b45,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4224801822505238522, guid: 9ecdb0544a530431495d88df96dd8b45,
         type: 3}
       propertyPath: m_IsActive
@@ -1092,7 +1097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &583741438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3903,7 +3908,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.6556604, b: 0.84905654, a: 1}
+  m_Color: {r: 1, g: 0.7332263, b: 0.06132078, a: 1}
   m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
