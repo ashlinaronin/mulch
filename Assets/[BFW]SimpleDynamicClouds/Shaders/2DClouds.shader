@@ -70,8 +70,8 @@ Shader "FStarVR/2DClouds" {
 
 				// kamyker's change
 				// from https://assetstore.unity.com/packages/tools/particles-effects/bfw-simple-dynamic-clouds-85665#reviews
-				//col.a = saturate(pow(fbm.xyz * _CloudColor.a, 2));
-				 col.a = saturate(fbm.xyz * _CloudColor.a * 2);
+				col.a = saturate(pow(fbm.xyz * _CloudColor.a, 2));
+				// col.a = saturate(fbm.xyz * _CloudColor.a * 2);
 
 				col.rgb = _CloudColor.rgb;
 				return col;
