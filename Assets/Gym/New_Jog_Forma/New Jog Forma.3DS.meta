@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: a6bde2cb9de0b4377ae1b852155341e7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Logo Run C
+    100002: Logo Run D
+    100004: Logo Run S
+    100006: //RootNode
+    100008: Object01
+    100010: RJExcBox01
+    100012: RJExcBox02
+    100014: RJExcBox05
+    100016: RJExcBox06
+    100018: RJExcCaps0
+    100020: RJExcCapsu
+    100022: RJExcChamf
+    100024: RJExcCyli0
+    100026: RJExcCylin
+    100028: RJExcLine0
+    100030: RJExcLine1
+    100032: RJExcLine2
+    100034: RJExcLine3
+    100036: RJExcLoft0
+    100038: RJExcLoft1
+    100040: RJExcRect0
+    100042: RJExcRecta
+    100044: RJExcSpher
+    100046: RJExcTube0
+    100048: Run_jog39
+    100050: Spazio F10
+    100052: Spazio F11
+    100054: Spazio F12
+    100056: Spazio F13
+    100058: Spazio F14
+    100060: Spazio F15
+    400000: Logo Run C
+    400002: Logo Run D
+    400004: Logo Run S
+    400006: //RootNode
+    400008: Object01
+    400010: RJExcBox01
+    400012: RJExcBox02
+    400014: RJExcBox05
+    400016: RJExcBox06
+    400018: RJExcCaps0
+    400020: RJExcCapsu
+    400022: RJExcChamf
+    400024: RJExcCyli0
+    400026: RJExcCylin
+    400028: RJExcLine0
+    400030: RJExcLine1
+    400032: RJExcLine2
+    400034: RJExcLine3
+    400036: RJExcLoft0
+    400038: RJExcLoft1
+    400040: RJExcRect0
+    400042: RJExcRecta
+    400044: RJExcSpher
+    400046: RJExcTube0
+    400048: Run_jog39
+    400050: Spazio F10
+    400052: Spazio F11
+    400054: Spazio F12
+    400056: Spazio F13
+    400058: Spazio F14
+    400060: Spazio F15
+    2100000: TGmet 2
+    2100002: Met11
+    2100004: PGrey Md
+    2100006: PGrey Cl
+    2100008: PBlack
+    2100010: Red
+    2100012: Metallo RAL 7024
+    2100014: Tappeto
+    2100016: RAL 70242
+    2100018: Schermo Jog
+    2100020: Alluminio Sat
+    2100022: RAL 7024
+    2100024: trasp
+    2100026: Bianco2
+    2300000: Logo Run C
+    2300002: Logo Run D
+    2300004: Logo Run S
+    2300006: Object01
+    2300008: RJExcBox01
+    2300010: RJExcBox02
+    2300012: RJExcBox05
+    2300014: RJExcBox06
+    2300016: RJExcCaps0
+    2300018: RJExcCapsu
+    2300020: RJExcChamf
+    2300022: RJExcCyli0
+    2300024: RJExcCylin
+    2300026: RJExcLine0
+    2300028: RJExcLine1
+    2300030: RJExcLine2
+    2300032: RJExcLine3
+    2300034: RJExcLoft0
+    2300036: RJExcLoft1
+    2300038: RJExcRect0
+    2300040: RJExcRecta
+    2300042: RJExcSpher
+    2300044: RJExcTube0
+    2300046: Run_jog39
+    2300048: Spazio F10
+    2300050: Spazio F11
+    2300052: Spazio F12
+    2300054: Spazio F13
+    2300056: Spazio F14
+    2300058: Spazio F15
+    3300000: Logo Run C
+    3300002: Logo Run D
+    3300004: Logo Run S
+    3300006: Object01
+    3300008: RJExcBox01
+    3300010: RJExcBox02
+    3300012: RJExcBox05
+    3300014: RJExcBox06
+    3300016: RJExcCaps0
+    3300018: RJExcCapsu
+    3300020: RJExcChamf
+    3300022: RJExcCyli0
+    3300024: RJExcCylin
+    3300026: RJExcLine0
+    3300028: RJExcLine1
+    3300030: RJExcLine2
+    3300032: RJExcLine3
+    3300034: RJExcLoft0
+    3300036: RJExcLoft1
+    3300038: RJExcRect0
+    3300040: RJExcRecta
+    3300042: RJExcSpher
+    3300044: RJExcTube0
+    3300046: Run_jog39
+    3300048: Spazio F10
+    3300050: Spazio F11
+    3300052: Spazio F12
+    3300054: Spazio F13
+    3300056: Spazio F14
+    3300058: Spazio F15
+    4300000: Logo Run S
+    4300002: Logo Run D
+    4300004: Logo Run C
+    4300006: Object01
+    4300008: RJExcCylin
+    4300010: RJExcSpher
+    4300012: RJExcCapsu
+    4300014: RJExcBox02
+    4300016: RJExcBox06
+    4300018: RJExcTube0
+    4300020: RJExcBox05
+    4300022: RJExcLine0
+    4300024: RJExcCaps0
+    4300026: RJExcCyli0
+    4300028: RJExcChamf
+    4300030: RJExcLine1
+    4300032: RJExcRecta
+    4300034: RJExcRect0
+    4300036: RJExcLoft0
+    4300038: RJExcLoft1
+    4300040: RJExcBox01
+    4300042: RJExcLine2
+    4300044: RJExcLine3
+    4300046: Spazio F12
+    4300048: Spazio F10
+    4300050: Spazio F13
+    4300052: Spazio F11
+    4300054: Spazio F14
+    4300056: Spazio F15
+    4300058: Run_jog39
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alluminio Sat
+    second: {fileID: 2100000, guid: 66c521378be0f45e984aa3e9054054e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bianco2
+    second: {fileID: 2100000, guid: 839bd8ac75ebd47b490b5d85a6b347f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Met11
+    second: {fileID: 2100000, guid: bc647a7b1210e46efa7b8ca0ef1e0250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallo RAL 7024
+    second: {fileID: 2100000, guid: bde693e5018e24c76b4d466199f35c9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PBlack
+    second: {fileID: 2100000, guid: 37c450d1bc34e4d7e99dea9fa2bd095a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PGrey Cl
+    second: {fileID: 2100000, guid: 0daf5a56bf3354db2828fb1a73e5de7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PGrey Md
+    second: {fileID: 2100000, guid: 6d844af677dc84d7394a798b0ae830b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAL 7024
+    second: {fileID: 2100000, guid: 19aa4cc18e32d4853a3aec2f1ab606ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RAL 70242
+    second: {fileID: 2100000, guid: ed205293efb6642c88d52ba065120f65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: b59a4fdc3c76c45e688b63edcd38bbc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schermo Jog
+    second: {fileID: 2100000, guid: af043061f7d0d4a9799f5f6760f4f777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TGmet 2
+    second: {fileID: 2100000, guid: cb87a475cf02d4540896886287fe4a52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tappeto
+    second: {fileID: 2100000, guid: ffa31758b464b47889d6ea4462bfd7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trasp
+    second: {fileID: 2100000, guid: e3b31e24896e84cc1b60c58cbb929702, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
