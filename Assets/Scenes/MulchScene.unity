@@ -12756,8 +12756,8 @@ Transform:
   - {fileID: 709061794}
   - {fileID: 709061830}
   - {fileID: 709061842}
-  - {fileID: 421360254}
   - {fileID: 1141667293}
+  - {fileID: 421360254}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14814,16 +14814,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MaxEnginePower: 25
-  m_Lift: 0.005
-  m_ZeroLiftSpeed: 200
+  m_Lift: 0.015
+  m_ZeroLiftSpeed: 70
   m_RollEffect: 1
   m_PitchEffect: 1
-  m_YawEffect: 0.2
+  m_YawEffect: 0.5
   m_BankedTurnEffect: 0.5
-  m_AerodynamicEffect: 0.02
+  m_AerodynamicEffect: 0.03
   m_AutoTurnPitch: 0.5
-  m_AutoRollLevel: 0.2
-  m_AutoPitchLevel: 0.2
+  m_AutoRollLevel: 0.1
+  m_AutoPitchLevel: 0.1
   m_AirBrakesEffect: 3
   m_ThrottleChangeSpeed: 0.3
   m_DragIncreaseFactor: 0.001
@@ -21751,7 +21751,7 @@ Transform:
   m_LocalScale: {x: 0.5609, y: 0.56090003, z: 0.56090003}
   m_Children: []
   m_Father: {fileID: 709061776}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1141667294
 MonoBehaviour:
