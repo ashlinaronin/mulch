@@ -1,0 +1,12 @@
+A small collection of free, worn looking office props.
+This pack includes:
+- A metal desk
+- swivel chair
+- ceiling fan
+- and customisable filing cabinet
+
+The materials are a PBR gloss set up but can be converted to roughness by inverting 
+the colours in the gloss map. (Ctrl-I in Photoshop) The gloss map is stored in the
+alpha channel of the metalness map.
+
+Pricing: Free
