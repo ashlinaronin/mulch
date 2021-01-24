@@ -22721,17 +22721,77 @@ MonoBehaviour:
   mpdHeightDampenerPower: 0.465
   smoothAmount: 5
   splatHeights:
-  - texture: {fileID: 0}
+  - texture: {fileID: 2800000, guid: 43b54d39e0a4c4d47bef645abec127f1, type: 3}
     minHeight: 0.1
+    maxHeight: 0.2
+    minSlope: 0
+    maxSlope: 45
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
+    splatOffset: 0.1
+    splatNoiseXScale: 0.01
+    splatNoiseYScale: 0.07
+    splatNoiseScaler: 0.1
+    remove: 0
+  - texture: {fileID: 2800000, guid: f7dd726c93b8f17418ea3be3f6768909, type: 3}
+    minHeight: 0.2
+    maxHeight: 0.5
+    minSlope: 45
+    maxSlope: 90
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
+    splatOffset: 0.1
+    splatNoiseXScale: 0.005
+    splatNoiseYScale: 0.05
+    splatNoiseScaler: 0.1
+    remove: 0
+  - texture: {fileID: 2800000, guid: 6bcc65b7c6e3a0b448d7801bfc56842f, type: 3}
+    minHeight: 0.3
+    maxHeight: 0.5
+    minSlope: 45
+    maxSlope: 90
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
+    splatOffset: 0.12
+    splatNoiseXScale: 0.01
+    splatNoiseYScale: 0.03
+    splatNoiseScaler: 0.1
+    remove: 0
+  - texture: {fileID: 2800000, guid: fcd3993703e7d804bb735613d2a5189d, type: 3}
+    minHeight: 0
     maxHeight: 0.2
     minSlope: 0
     maxSlope: 90
     tileOffset: {x: 0, y: 0}
     tileSize: {x: 50, y: 50}
+    splatOffset: 0.4
+    splatNoiseXScale: 0.03
+    splatNoiseYScale: 0.04
+    splatNoiseScaler: 0.1
+    remove: 0
+  - texture: {fileID: 2800000, guid: 0cc0777f7d4a3444380eb084d74396b5, type: 3}
+    minHeight: 0.4
+    maxHeight: 1
+    minSlope: 0
+    maxSlope: 90
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
+    splatOffset: 0.15
+    splatNoiseXScale: 0.03
+    splatNoiseYScale: 0.06
+    splatNoiseScaler: 0.1
+    remove: 0
+  - texture: {fileID: 2800000, guid: 7f3df385222f5b1428f6a156037deb5e, type: 3}
+    minHeight: 0
+    maxHeight: 0.5
+    minSlope: 25
+    maxSlope: 70
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
     splatOffset: 0.1
     splatNoiseXScale: 0.01
-    splatNoiseYScale: 0.01
-    splatNoiseScaler: 0.1
+    splatNoiseYScale: 0.05
+    splatNoiseScaler: 0.3
     remove: 0
   vegetation:
   - mesh: {fileID: 0}
@@ -24760,7 +24820,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1458030052}
-  - component: {fileID: 1458030053}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -24787,39 +24846,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!218 &1458030053
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458030051}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 0}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 1
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ScaleInLightmap: 1
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 0
 --- !u!1 &1473034926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7727437826828483275, guid: 9829c46403e3e4e1db59ccd734ccd7f5,
@@ -24856,7 +24882,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1515379710}
   - component: {fileID: 1515379709}
-  - component: {fileID: 1515379711}
   m_Layer: 0
   m_Name: TerrainGroup_0
   m_TagString: Untagged
@@ -24900,39 +24925,6 @@ Transform:
   m_Father: {fileID: 1458030052}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!218 &1515379711
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515379708}
-  m_Enabled: 0
-  serializedVersion: 6
-  m_TerrainData: {fileID: 0}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ScaleInLightmap: 1
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 0
 --- !u!1 &1526759036
 GameObject:
   m_ObjectHideFlags: 0
