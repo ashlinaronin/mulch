@@ -14,6 +14,10 @@ public class TriggerSound : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        source.Play();
+        // don't play sounds for AI (we have a tag of Player set on the Colliders container object)
+        if (other.transform.parent.CompareTag("Player"))
+        {
+            source.Play();
+        }
     }
 }

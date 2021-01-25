@@ -7,6 +7,8 @@ TagManager:
   - Shore
   - Cloud
   - Terrain
+  - Fire
+  - AI
   layers:
   - Default
   - TransparentFX
