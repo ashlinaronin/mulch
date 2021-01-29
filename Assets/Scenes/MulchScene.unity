@@ -11791,7 +11791,7 @@ PrefabInstance:
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4146.6606
+      value: 4013.9468
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
@@ -11801,27 +11801,27 @@ PrefabInstance:
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2380.9233
+      value: 3340.4023
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.65706474
+      value: 0.6991892
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2612775
+      value: -0.10552004
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2612775
+      value: 0.10552004
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.65706474
+      value: 0.6991892
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
@@ -11841,7 +11841,7 @@ PrefabInstance:
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 136.63
+      value: 197.164
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
@@ -12104,37 +12104,37 @@ PrefabInstance:
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5114.936
+      value: 5428.263
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 372.64087
+      value: 765
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1497.4814
+      value: 2455.8906
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.56023043
+      value: 0.5040082
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.23079382
+      value: 0.34002405
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32188502
+      value: -0.40428182
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7275068
+      value: 0.68331224
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
@@ -12149,7 +12149,7 @@ PrefabInstance:
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 174.658
+      value: 192.366
       objectReference: {fileID: 0}
     - target: {fileID: 1503573811785853718, guid: 8fde556b9c44a4247bc67a302badc9b0,
         type: 3}
@@ -22572,7 +22572,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 23339216faf534323b381c4d399d91e9,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 15df2b752f6a74eafba8c974729af8bf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 25bdbf659e4cb4d5e972fdae2aa2bdfd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
