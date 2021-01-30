@@ -14,11 +14,17 @@ public class TrophyDoorHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        animator.SetBool("isOpen", true);
+        if (other.transform.parent.CompareTag("Player"))
+        {
+            animator.SetBool("isOpen", true);
+        }
     }
 
     void OnTriggerExit(Collider other)
     {
-        animator.SetBool("isClosed", false);
+        if (other.transform.parent.CompareTag("Player"))
+        {
+            animator.SetBool("isOpen", false);
+        }
     }
 }
