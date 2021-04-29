@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using EditorGUITable;
 
-
 public class PropertyAttributeExample : MonoBehaviour {
 	
 	[System.Serializable]
